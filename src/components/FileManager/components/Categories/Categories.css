@@ -1,0 +1,20 @@
+.categories-container {
+    width: 159px;
+    overflow-x: hidden;
+}
+
+.category-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.categories-title {
+    font-family: 'Nunito Sans';
+    font-style: bold;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 0.16;
+    line-height: 32px;
+    text-transform: uppercase;
+}

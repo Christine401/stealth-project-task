@@ -1,0 +1,60 @@
+.side-navbar {
+    width: 200px;
+    background-color: #ffffff;
+    /* border-right: 1px solid #636363; */
+}
+
+.side-navbar-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 79px;
+}
+
+.side-nav-heading {
+    font-family: "Nunito Sans";
+    font-weight: 700;
+    font-size: 28px;
+    letter-spacing: 0.18;
+    color: #172B4E;
+}
+
+.side-navbar-body {
+    border-top: 1px solid #DCE0E3;
+    padding-top: 10px;
+}
+
+.nav-icon {
+    width: 32px;
+    height: 32px;
+    margin-right: 10px;
+    border-radius: 4px;
+}
+
+.nav-list-item-container {
+    border-radius: 4px;
+    width: 170px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.active {
+    background-color: #EEF3FA;
+}
+
+.nav-list-text {
+    font-family: "Nunito Sans";
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 0.46;
+    color: #272F48;
+}
+
+.app-logo {
+    width: 44px;
+    height: 44px;
+    margin-right: 10px;
+}

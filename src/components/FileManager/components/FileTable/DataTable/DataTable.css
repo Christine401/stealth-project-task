@@ -1,0 +1,63 @@
+.tooltip-wrapper {
+    padding: 0 !important;
+}
+
+.tooltip-container {
+    min-width: 177px;
+    min-height: 64px;
+    background-color: #ffffff;
+    font-size: 10px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 4px;
+}
+    
+.tooltip-header {
+    background-color: #EEF3FA;
+    display: flex;
+    align-items: center;
+    color: #404965; 
+    font-family:'Nunito Sans'; 
+    font-size: 10px;
+    padding: 2px 12px; 
+}
+
+.tooltip-header-text {
+    padding-top: 3px;
+    margin-left: 4px;
+    font-weight: 600;
+}
+
+.tooltip-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    gap: 30px;
+}
+
+.tooltip-body-text {
+    color: #7C8DC1;
+    font-family: 'Source Sans Pro';
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+}
+
+.tooltip-arrow {
+    color: #ffffff !important;
+}
+
+
+.action-button {
+    width: 19px;
+    height: 19px;
+}
+
+.icon-btn {
+    padding: 0;
+    background-color: transparent;
+    outline: none;
+    border: none;
+}

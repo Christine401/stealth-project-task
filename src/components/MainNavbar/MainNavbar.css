@@ -1,0 +1,23 @@
+.main-navigation-container {
+    height: 79px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+.main-navigation-title {
+    font-family: "Nunito Sans";
+    font-weight: 700;
+    font-size: 36px;
+    color: #404965;
+}
+
+.main-button-text{
+    font-size: 16px !important;
+    font-style: bold !important;
+    font-weight: 800 !important;
+    font-family: 'Nunito Sans' !important;
+    color: #ffffff !important;
+    text-transform: capitalize !important;
+}
