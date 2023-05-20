@@ -397,7 +397,7 @@ export default function EnhancedTable({files,handleDeleteFile}) {
           </Table>
         </TableContainer>
         <TablePagination
-          rowsPerPageOptions={[5, 10, 25]}
+          rowsPerPageOptions={[4]}
           component="div"
           count={rows.length}
           rowsPerPage={rowsPerPage}
